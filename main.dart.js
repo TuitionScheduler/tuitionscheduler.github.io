@@ -44585,7 +44585,7 @@ $3$onDone$onError(a,b,c){return this.I(this,A.J("call","$3$onDone$onError",0,[a,
 $6$checked$context$onCheckboxChanged$onRowTap$overlayColor$tristate(a,b,c,d,e,f){return this.I(this,A.J("call","$6$checked$context$onCheckboxChanged$onRowTap$overlayColor$tristate",0,[a,b,c,d,e,f],["checked","context","onCheckboxChanged","onRowTap","overlayColor","tristate"],0))},
 $5$autofocus$focusNode$mouseCursor$painter$size(a,b,c,d,e){return this.I(this,A.J("call","$5$autofocus$focusNode$mouseCursor$painter$size",0,[a,b,c,d,e],["autofocus","focusNode","mouseCursor","painter","size"],0))},
 $1$selectedCourses(a){return this.I(this,A.J("call","$1$selectedCourses",0,[a],["selectedCourses"],0))},
-$1$queryParameters(a){return this.I(this,A.J("call","$1$queryParameters",0,[a],["queryParameters"],0))},
+$2$path$queryParameters(a,b){return this.I(this,A.J("call","$2$path$queryParameters",0,[a,b],["path","queryParameters"],0))},
 $3$sharePositionOrigin$subject(a,b,c){return this.I(this,A.J("call","$3$sharePositionOrigin$subject",0,[a,b,c],["sharePositionOrigin","subject"],0))},
 $1$format(a){return this.I(this,A.J("call","$1$format",0,[a],["format"],0))},
 $2$parentUsesSize(a,b){return this.I(this,A.J("call","$2$parentUsesSize",0,[a,b],["parentUsesSize"],0))},
@@ -44782,8 +44782,8 @@ b=q}r=c==null
 if(!r||d!=null)c=A.aLr(c,0,r?0:c.length,d)
 else c=p.f
 return A.aLp(o,m,k,l,b,c,p.r)},
-a04(a,b){return this.xO(0,null,null,b)},
-a05(a,b,c){return this.xO(0,b,c,null)},
+a05(a,b,c){return this.xO(0,b,null,c)},
+a04(a,b,c){return this.xO(0,b,c,null)},
 gZ9(){return this.a.length!==0},
 gZ4(){return this.c!=null},
 gZ8(){return this.f!=null},
@@ -44918,8 +44918,8 @@ if(k<q)c=B.d.am(o.a,k+1,q)}k=o.r
 q=o.a
 p=k<q.length?B.d.f4(q,k+1):n
 return A.aLp(m,j,s,i,b,c,p)},
-a04(a,b){return this.xO(0,null,null,b)},
-a05(a,b,c){return this.xO(0,b,c,null)},
+a05(a,b,c){return this.xO(0,b,null,c)},
+a04(a,b,c){return this.xO(0,b,c,null)},
 gC(a){var s=this.x
 return s==null?this.x=B.d.gC(this.a):s},
 j(a,b){if(b==null)return!1
@@ -107187,7 +107187,7 @@ p.m4(B.mQ)
 k=A.aSk()
 p=window.history
 p.toString
-l=k.a05(0,"/","").gms()
+l=k.a04(0,"/","").gms()
 p.pushState(new A.aJB([],[]).Eh(null),"matrical",l)}}},
 D(a){return new A.Xt(new A.aFf(),null)}}
 A.aFe.prototype={
@@ -109946,7 +109946,7 @@ if(r==null)r="horario"
 A.aTj(s.d,r)},
 $S:0}
 A.ah0.prototype={
-$0(){A.aRZ(A.aSk().a04(0,this.a.d.ayq()).gms()).cF(new A.agW(this.b),t.P)},
+$0(){A.aRZ(A.aSk().a05(0,"/share",this.a.d.ayq()).gms()).cF(new A.agW(this.b),t.P)},
 $S:0}
 A.agW.prototype={
 $1(a){A.cW(this.a,!1).eq()},
