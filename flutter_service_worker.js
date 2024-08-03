@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "964b2c6e35e28cc562f82b611555f891",
+const RESOURCES = {"flutter_bootstrap.js": "250e459050e98b8be51f2edda8fabdf3",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/AssetManifest.bin.json": "a1fee2517bf598633e2f67fcf3e26c94",
 "assets/NOTICES": "5d8b8d5745cd6ba5f2a35c45fdb50107",
@@ -12,8 +12,8 @@ const RESOURCES = {"flutter_bootstrap.js": "964b2c6e35e28cc562f82b611555f891",
 "assets/fonts/MaterialIcons-Regular.otf": "5e952980cd1971f8b2b5e6eccfd55b1e",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"index.html": "408c9d24a241dc225a81004d3cc0cb83",
-"/": "408c9d24a241dc225a81004d3cc0cb83",
+"index.html": "ed44d0b855dfef691823259cd02aad8d",
+"/": "ed44d0b855dfef691823259cd02aad8d",
 "favicon.ico": "957ff924427ae67c11404849683b9787",
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "canvaskit/skwasm.wasm": "4051bfc27ba29bf420d17aa0c3a98bce",
@@ -47,7 +47,7 @@ const RESOURCES = {"flutter_bootstrap.js": "964b2c6e35e28cc562f82b611555f891",
 "icons/apple-icon-120x120.png": "387570d9520fa1b8f7cb0ce4fa9c66a8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "72fe3da22dc311906e5b4a5ce2f5db71",
-"main.dart.js": "97625d20922e21752b9234bba6fff40c",
+"main.dart.js": "155eb8c14c409195e9f2bc6d8a6ab171",
 "version.json": "bbc81171648e1d56d3506e6dab22a36b"};
 // The application shell files that are downloaded before a service worker can
 // start.
