@@ -111135,7 +111135,7 @@ $S:133}
 A.aCx.prototype={
 $3(a,b,c){var s=null,r=this.a
 r.e=b
-return A.nG(!0,B.bk,!1,s,!0,B.H,s,A.qB(),b,s,s,s,s,s,2,B.RM,B.N,!0,s,!0,s,!1,c,s,A.a([new A.yV()],t.VS),s,s,B.o_,s,s,s,1,s,s,!1,"\u2022",s,s,s,new A.aCh(r,this.b),s,!1,s,!1,s,!0,s,B.cq,s,s,B.bx,B.bo,s,s,s,s,s,s,s,B.ac,s,B.nV,s,B.nY,s,s)},
+return A.nG(!0,B.bk,!1,s,!0,B.H,s,A.qB(),b,s,s,s,s,s,2,B.RN,B.N,!0,s,!0,s,!1,c,s,A.a([new A.yV()],t.VS),s,s,B.o_,s,s,s,1,s,s,!1,"\u2022",s,s,s,new A.aCh(r,this.b),s,!1,s,!1,s,!0,s,B.cq,s,s,B.bx,B.bo,s,s,s,s,s,s,s,B.ac,s,B.nV,s,B.nY,s,s)},
 $C:"$3",
 $R:3,
 $S:134}
@@ -111203,7 +111203,7 @@ $S:20}
 A.aCD.prototype={
 $3(a,b,c){var s=this,r=null,q=s.a
 q.f=b
-return A.nG(!0,B.bk,!1,r,!0,B.H,r,A.qB(),b,r,r,r,r,r,2,B.RN,B.N,!0,r,!0,r,!1,c,r,A.a([new A.yV()],t.VS),r,r,B.o_,r,r,r,1,r,r,!1,"\u2022",r,r,r,new A.aCg(q,s.b,s.c,s.d),r,!1,r,!1,r,!0,r,B.cq,r,r,B.bx,B.bo,r,r,r,r,r,r,r,B.ac,r,B.nV,r,B.hI,r,r)},
+return A.nG(!0,B.bk,!1,r,!0,B.H,r,A.qB(),b,r,r,r,r,r,2,B.RL,B.N,!0,r,!0,r,!1,c,r,A.a([new A.yV()],t.VS),r,r,B.o_,r,r,r,1,r,r,!1,"\u2022",r,r,r,new A.aCg(q,s.b,s.c,s.d),r,!1,r,!1,r,!0,r,B.cq,r,r,B.bx,B.bo,r,r,r,r,r,r,r,B.ac,r,B.nV,r,B.hI,r,r)},
 $C:"$3",
 $R:3,
 $S:134}
@@ -112270,7 +112270,7 @@ return B.ew}else{s=this.a
 r=s.r
 r===$&&A.b()
 q=t.p
-r=A.a([A.bE(new A.ar(B.ao,A.nG(!0,B.bk,!1,n,!0,B.H,n,A.qB(),r.a,n,n,n,n,n,2,B.RL,B.N,!0,n,!0,n,!1,n,n,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,new A.aP1(s),n,n,n,!1,n,!1,n,!0,n,B.cq,n,n,B.bx,B.bo,n,n,n,n,n,n,n,B.ac,n,B.eb,n,n,n,n),n),1)],q)
+r=A.a([A.bE(new A.ar(B.ao,A.nG(!0,B.bk,!1,n,!0,B.H,n,A.qB(),r.a,n,n,n,n,n,2,B.RM,B.N,!0,n,!0,n,!1,n,n,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,new A.aP1(s),n,n,n,!1,n,!1,n,!0,n,B.cq,n,n,B.bx,B.bo,n,n,n,n,n,n,n,B.ac,n,B.eb,n,n,n,n),n),1)],q)
 r.push(A.eb(n,n,n,n,n,B.mq,30,n,n,new A.aP2(s,a),n,n,n,n,n,n))
 r=A.bu(r,B.p,B.l,B.m,n)
 p=b.b
@@ -118255,9 +118255,9 @@ B.RI=new A.ic(null,null,null,null,null,null,null,null,null,null,"Nombre del hora
 B.ro=new A.ic(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.RJ=new A.ic(null,null,null,"Buscar Curso o Departamento",null,null,null,null,null,null,"ie. CIIC3015, INSO",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.RK=new A.ic(null,null,null,"Profesor(es)",null,null,null,null,null,null,"ie. Juan Pedro, Don Quijote de La Mancha",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.RL=new A.ic(null,null,null,"Nombre de Horario",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.RM=new A.ic(null,null,null,"Curso",null,null,null,null,null,null,"ie. CIIC3015",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.RN=new A.ic(null,null,null,"Secci\xf3n (opcional)",null,null,null,null,null,null,"ie. 070, 001D",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.RL=new A.ic(null,null,null,"Secci\xf3n",null,null,null,null,null,null,"ie. 070, 001D",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.RM=new A.ic(null,null,null,"Nombre de Horario",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.RN=new A.ic(null,null,null,"Curso*",null,null,null,null,null,null,"ie. CIIC3015",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.RO=new A.ic(null,null,null,"Salon(es)",null,null,null,null,null,null,"ie. S 113, CH 403, I 202",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.RP=new A.ic(null,null,null,"Acaba Antes de",null,null,null,null,null,null,"HH:MM ie. 13:20",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.RR=new A.ly(!1)
