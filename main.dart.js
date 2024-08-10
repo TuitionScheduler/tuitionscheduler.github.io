@@ -111167,12 +111167,13 @@ if(s!=null)s.seU(0,"")},
 $S:20}
 A.aCr.prototype={
 $1(a){return this.a1X(a)},
-a1X(a){var s=0,r=A.N(t.yp),q,p=this,o,n
+a1X(a){var s=0,r=A.N(t.yp),q,p=this,o,n,m
 var $async$$1=A.J(function(b,c){if(b===1)return A.K(c,r)
 while(true)switch(s){case 0:n=p.a.e
-if(n==null){q=A.a([],t.s)
+m=n==null
+if(m||a.length===0){q=A.a([],t.s)
 s=1
-break}o=n.a.a
+break}o=m?null:n.a.a
 if(o==null)o=""
 n=p.b
 s=3
