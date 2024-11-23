@@ -32264,12 +32264,13 @@ this.b=b},
 aC6:function aC6(){},
 abV(a,b,c,d){var s=0,r=A.N(t.H),q,p,o,n,m
 var $async$abV=A.J(function(e,f){if(e===1)return A.K(f,r)
-while(true)switch(s){case 0:o=A.aYv()
-n=A.ay(["term",b.d,"year",c,"courses",new A.U(d,new A.aQO(),A.a_(d).h("U<1,i>")).bZ(0,",")],t.N,t.K)
+while(true)switch(s){case 0:p=A.aYv()
+o=t.N
+n=A.ay(["term",b.d,"year",B.e.k(c),"courses",new A.U(d,new A.aQO(),A.a_(d).h("U<1,i>")).bZ(0,",")],o,o)
 m=A.ayI().MP(0,n).glw()
-s=o!=null?3:4
+s=p!=null?3:4
 break
-case 3:case 5:switch(o.gXM().a){case 1:s=7
+case 3:case 5:switch(p.gXM().a){case 1:s=7
 break
 case 5:s=8
 break
@@ -32287,11 +32288,11 @@ case 11:s=6
 break
 case 6:case 4:s=13
 return A.I(A.vo(new A.ow(m)),$async$abV)
-case 13:if(a.e!=null){p=a.O(t.O)
-p.toString
-p=p.f
-p.iu()
-p.fF(B.aab)}case 1:return A.L(q,r)}})
+case 13:if(a.e!=null){o=a.O(t.O)
+o.toString
+o=o.f
+o.iu()
+o.fF(B.aab)}case 1:return A.L(q,r)}})
 return A.M($async$abV,r)},
 C8:function C8(a){this.a=a},
 a2r:function a2r(a,b,c){var _=this
@@ -111426,12 +111427,18 @@ var $async$$0=A.J(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:p=q.a
 o=p.a
 n=q.b
-if(o.length!==0)A.abV(n,p.b,p.c,o)
-else{p=n.O(t.O)
+s=o.length!==0?2:4
+break
+case 2:s=5
+return A.I(A.abV(n,p.b,p.c,o),$async$$0)
+case 5:s=3
+break
+case 4:p=n.O(t.O)
 p.toString
 p=p.f
 p.iu()
-p.fF(B.aa9)}return A.L(null,r)}})
+p.fF(B.aa9)
+case 3:return A.L(null,r)}})
 return A.M($async$$0,r)},
 $S:12}
 A.aCA.prototype={
@@ -111458,7 +111465,8 @@ $2(a,b){var s=null
 return new A.ff(A.kR(s,s,s,B.e1,s),A.qI(s,B.k,s,new A.xh(this.a.d,s),s,B.k,A.bv(A.a([B.Qk,A.alV(B.a1,B.iN,"Aqu\xed puedes controlar cuales horarios ser\xe1n mostrados primeros basados en tus preferencias.\n\nEsparcido / Denso - Controla si las secciones deben tener espacio entremedio o no.\nPresencial / Por Acuerdo - Modalidad preferida.\nTiempo Preferido para Cursos - Selecciona cu\xe1ndo tomar los cursos durante el d\xeda.")],t.p),B.p,B.c2,B.n,s)),s)},
 $S:709}
 A.aQO.prototype={
-$1(a){return a.a+"-"+a.b},
+$1(a){var s=a.a,r=a.b
+return r!==""?s+("-"+r):s},
 $S:171}
 A.vy.prototype={
 D(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1=a.c,a2=a1.a,a3=a1.b
