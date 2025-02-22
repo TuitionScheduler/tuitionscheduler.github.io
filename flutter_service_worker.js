@@ -23,7 +23,7 @@ const RESOURCES = {"icons/apple-icon-57x57.png": "9847fe21d679afefc619b0a794bd60
 "icons/favicon-96x96.png": "bdaebeb1036f26c96d31adfb32fd60ea",
 "icons/apple-icon.png": "a76fb697f5c822e5572848c48865df6c",
 "icons/apple-icon-precomposed.png": "a76fb697f5c822e5572848c48865df6c",
-"flutter_bootstrap.js": "57c6502fcdd652f92d2c86e4452498da",
+"flutter_bootstrap.js": "48a1113f1549e6c73c05de3bce60f999",
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "canvaskit/skwasm.wasm": "4051bfc27ba29bf420d17aa0c3a98bce",
 "canvaskit/chromium/canvaskit.wasm": "399e2344480862e2dfa26f12fa5891d7",
@@ -45,8 +45,8 @@ const RESOURCES = {"icons/apple-icon-57x57.png": "9847fe21d679afefc619b0a794bd60
 "assets/fonts/MaterialIcons-Regular.otf": "5e952980cd1971f8b2b5e6eccfd55b1e",
 "assets/AssetManifest.bin.json": "a1fee2517bf598633e2f67fcf3e26c94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"index.html": "54447850acf52d58e4201d205ab8fa64",
-"/": "54447850acf52d58e4201d205ab8fa64",
+"index.html": "f99147ca85ecc9b312a79c3b47fe7263",
+"/": "f99147ca85ecc9b312a79c3b47fe7263",
 "manifest.json": "e2431ec80931947d09c8cd1ea8d44a0d",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c"};
 // The application shell files that are downloaded before a service worker can
