@@ -13,8 +13,8 @@ const RESOURCES = {"canvaskit/skwasm.js": "5d4f9263ec93efeb022bb14a3881d240",
 "canvaskit/chromium/canvaskit.wasm": "399e2344480862e2dfa26f12fa5891d7",
 "canvaskit/chromium/canvaskit.js": "901bb9e28fac643b7da75ecfd3339f3f",
 "canvaskit/chromium/canvaskit.js.symbols": "ee7e331f7f5bbf5ec937737542112372",
-"index.html": "d70fa58a7d6a2daebf920c07579cd157",
-"/": "d70fa58a7d6a2daebf920c07579cd157",
+"index.html": "c04252aa4de16ee86b4aaff4a5967e9e",
+"/": "c04252aa4de16ee86b4aaff4a5967e9e",
 "assets/NOTICES": "c045471bc1910fb41562855fbad0ff7e",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9",
@@ -48,7 +48,7 @@ const RESOURCES = {"canvaskit/skwasm.js": "5d4f9263ec93efeb022bb14a3881d240",
 "icons/apple-icon-152x152.png": "729f2ad95666f636e00f81a97aa20ea0",
 "manifest.json": "e2431ec80931947d09c8cd1ea8d44a0d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter_bootstrap.js": "a98088be5db9c6b8a11e643b2b2f756b"};
+"flutter_bootstrap.js": "87d93c9030c3288c204d137f8f15bded"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
